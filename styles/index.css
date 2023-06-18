@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  border: 4px solid red;
+}
+.header {
+  background: rgba(19, 145, 206, 0.7);
+  padding-bottom: 20px;
+}
+.header .container > * {
+  border: 4px solid green;
+}
+.main {
+  background: #e5e5e5;
+  padding: 176px 0 64px 0;
+}
+.footer {
+  background: #1391ce;
+}
+
+.headerNavBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 58px 0;
+}
+.headerNavBar > * {
+  border: 3px solid red;
+}
+.headerNavBar a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+
+  color: #25468a;
+}
+.headerNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navList {
+  display: flex;
+  gap: 32px;
+  margin-right: 32px;
+}
+.listItem {
+  list-style: none;
+}
+.listItem a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25468a;
+}
+.headerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 116px;
+  border: none;
+  border-radius: 24px;
+  background: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.headerBtn:hover {
+  transform: scale(1.05);
+}
+
+.headerContent {
+  display: flex;
+}
+
+.headerContentText h1 {
+  font-family: "Roboto-Bold";
+  font-size: 92px;
+  font-weight: 700;
+  line-height: 108px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25468a;
+}
+.headerContentText h3 {
+  font-family: "Roboto-Regular";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3b4a6b;
+  margin-top: 10px;
+}
+.headerContentText p {
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3b4a6b;
+  margin-top: 45px;
+}
+.headerContentText button {
+  height: 51px;
+  width: 263px;
+  border-radius: 26px;
+  background: #f7ba0e;
+  border: none;
+
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #3b4a6b;
+  margin-top: 25px;
+  cursor: thin;
+  transition: 0.3s;
+}
+.headerContentText button:hover {
+  transform: scale(1.05);
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.btn {
+  height: 189px;
+  width: 352px;
+  left: 928px;
+  top: 819px;
+  border-radius: 8px;
+  background: #1391ce;
+  border: none;
+  color: white;
+
+  font-family: "Roboto-Bold";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 15px;
+}
+.sectionBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionBuild > *,
+.sectionSupport > *,
+.sectionEvenMore > * {
+  margin-top: 128px;
+  padding: 10px;
+}
+.sectionBtns h1 {
+  font-family: "Inter-Regular";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #1391ce;
+}
+.sectionBtns hr {
+  height: 8px;
+  width: 160px;
+  left: 639px;
+  top: 1174.83251953125px;
+  border-radius: 0px;
+  background: #f7ba0e;
+  border: none;
+  margin-top: 16px;
+  margin-bottom: 95px;
+}
+.sectionBuild {
+  display: flex;
+}
+.sectionSupport {
+  display: flex;
+}
+.sectionEvenMore {
+  display: flex;
+}
+
+.sectionBuildText {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #25468a;
+  padding-left: 70px;
+}
+
+.sectionBuildText h1 {
+  font-family: "Inter-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #1391ce;
+  margin-top: 16px;
+}
+
+.sectionBuildText h3 {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4f4f4f;
+  margin-top: 42px;
+}
+
+.sectionSupportText {
+  padding-right: 40px;
+}
+.sectionSupportText p {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #25468a;
+}
+.sectionSupportText h1 {
+  font-family: "Inter-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #1391ce;
+  margin-top: 16px;
+}
+
+.sectionSupportText h3 {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4f4f4f;
+  margin-top: 42px;
+}
+
+.output {
+  font-family: "Inter-Medium";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1391ce;
+  margin: 24px 0 18px 0;
+}
+.sectionSupportText ul li {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4f4f4f;
+  list-style-image: url(../images/listIcon.svg);
+  margin-left: 25px;
+
+  margin-bottom: 5px;
+}
+
+.sectionEvenMore {
+  margin: 50px 0;
+}
+.sectionEvenMoreText p {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #25468a;
+}
+.sectionEvenMoreText h1 {
+  font-family: "Inter-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #1391ce;
+  margin-top: 16px;
+}
+.sectionEvenMoreText ul {
+  margin-top: 42px;
+}
+.sectionEvenMoreText ul li {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4f4f4f;
+
+  list-style-image: url(../images/listIcon.svg);
+}
+
+.footer {
+  padding: 32px 0;
+}
+.footer .container .teamInfo {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e3e3e3;
+  padding: 32px 0;
+}
+.footer .container .teamInfo p {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.footer .container .teamInfo p span {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
